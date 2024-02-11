@@ -1,0 +1,156 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+        padding: 0;
+      margin: 0;
+   
+  }
+  
+  
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  img{
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+  }
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+  #fun-game{
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-image:url('https://cdn.glitch.global/1d54dca0-28c2-4ac8-b56a-6a1816216286/wp8984736.jpg?v=1707665245140');
+    border: solid 1px #ffffff;
+   
+  
+  }
+  
+  
+  .title{
+    display:flex;
+    justify-content:center;
+    height:150px;
+    align-items:center;
+    font-size: 2rem;
+    font-family: 'Protest Revolution', sans-serif;
+    cursor:pointer;
+    letter-spacing: 3px;
+  }
+  
+  #display{
+    color:black;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+     margin: 30px 0px;
+  }
+  
+  .hide{
+    display:none;
+  }
+  
+  .home{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  align-items: center;
+    width: 500px;
+  /*   border: 5px solid black; */
+  }
+  
+  .tile{
+   border: 5px solid black;
+      min-width: 100px;
+      min-height: 160px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 4rem;
+      font-weight:500;
+      cursor: pointer; 
+      z-index:1;
+  } 
+  
+  .board-game{
+    display:grid;
+    width: 400px;
+    height:100px;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-rows: 33% 33% 33%;
+    align-items:center;
+  
+    background-color:#464c52;
+    cursor:pointer;
+   
+  }
+  
+  .announcer{
+       display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-top: 50px;
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing:3px;
+  }
+  
+  .box{
+    display:flex;
+    height:160px;
+    width:160px;
+    background-color:red;
+    justify-self: center;
+    align-items:center;
+    
+  }
+  
+  
+  .playerX{
+    color: #fcd305
+  }
+  
+  .PlayerO{
+    color: #03cafc;
+    
+  }
+  
+  .controls {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4em;
+  }
+  
+  .controls button {
+       color: white;
+      border-radius: 5px;
+      font-size: 0.8rem;
+      padding: 8px;
+      text-align: center;
+      cursor: pointer;
+      width: 100px;
+  }
+  
+  .restart {
+      background-color: #498AFB;
+  }
+  
+  #reset {
+      background-color: #fc053f
+  }
+  
