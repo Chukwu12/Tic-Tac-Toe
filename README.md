@@ -1,7 +1,7 @@
 # Tic-Tac-Toe Game
 This is a simple implementation of the classic Tic-Tac-Toe game for two players. One player plays as X and the other plays as O. Players take turns placing their marks on a grid of three-by-three cells. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
 
-1. How to Play
+# How to Play
 Clone this repository to your local machine.
 git clone https://github.com/your-username/tic-tac-toe.git
 Open the project directory in your terminal.
