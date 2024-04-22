@@ -3,7 +3,7 @@ This is a simple implementation of the classic Tic-Tac-Toe game for two players.
 
 # How to Play
 Clone this repository to your local machine.
-git clone https://github.com/your-username/tic-tac-toe.git
+git clone [https://github.com/your-username/tic-tac-toe.git](https://github.com/Chukwu12/Tic-Tac-Toe.git)
 Open the project directory in your terminal.
 Run the game by opening the index.html file in your web browser.
 Play the game by clicking on the cells to place your mark (X or O). Alternate turns with your opponent.
