@@ -4,10 +4,10 @@ This is a simple implementation of the classic Tic-Tac-Toe game for two players.
 1. How to Play
 Clone this repository to your local machine.
 git clone https://github.com/your-username/tic-tac-toe.git
-2.Open the project directory in your terminal.
-3. Run the game by opening the index.html file in your web browser.
-4.Play the game by clicking on the cells to place your mark (X or O). Alternate turns with your opponent.
-5.The game will automatically detect when one player has won or when the game ends in a draw.
+Open the project directory in your terminal.
+Run the game by opening the index.html file in your web browser.
+Play the game by clicking on the cells to place your mark (X or O). Alternate turns with your opponent.
+The game will automatically detect when one player has won or when the game ends in a draw.
 
 # Features
 Simple and intuitive user interface.
