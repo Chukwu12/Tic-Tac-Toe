@@ -20,7 +20,6 @@ HTML5
 CSS3
 JavaScript
 
-# Screenshots
 
 # Future Enhancements
 Implement a computer player for single-player mode.
